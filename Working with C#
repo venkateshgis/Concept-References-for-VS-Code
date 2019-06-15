@@ -1,1 +1,8 @@
 
+Creating a console application:
+
+Open VS code
+Go to File -> Open Folder : Select a folder where you want to create .csproj
+Go to View -> click on Terminal
+Under Terminal tab, type: dotnet new console
+It creates a .csproj file and program.cs file.
