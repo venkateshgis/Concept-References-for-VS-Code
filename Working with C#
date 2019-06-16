@@ -1,8 +1,29 @@
 
 Creating a console application:
+Using Visual Studio Code:
 
 Open VS code
 Go to File -> Open Folder : Select a folder where you want to create .csproj
 Go to View -> click on Terminal
 Under Terminal tab, type: dotnet new console
 It creates a .csproj file and program.cs file.
+
+Using Command prompt:
+
+c:\Yella\Visual Studio Code>cd dotnetcore
+
+c:\Yella\Visual Studio Code\DotNetCore>dotnet new console -o myapp
+The template "Console Application" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on myapp\myapp.csproj...
+  Restore completed in 520.94 ms for c:\Yella\Visual Studio Code\DotNetCore\myapp\myapp.csproj.
+
+Restore succeeded.
+
+
+c:\Yella\Visual Studio Code\DotNetCore> cd myapp
+
+c:\Yella\Visual Studio Code\DotNetCore\myapp>code .
+
+c:\Yella\Visual Studio Code\DotNetCore\myapp>cd..
